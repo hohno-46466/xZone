@@ -8,7 +8,7 @@
 aZone - Apple, Android & AWS Zone
 bZone - Business Zone
 cZone - Code Zone
-dZone - Data & Document Zone (including CAT/simulation data)
+dZone - Data & Document Zone
 eZone - Education
 jZone - Joint project Zone ?
 mZone - MAKER Zone
