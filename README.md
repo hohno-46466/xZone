@@ -8,20 +8,15 @@ Overview
 
 Providing general information on the "Zone" folder and related files.
 
-
 ## Description
-
-## Demo
-
-## VS. 
 
 ## Requirement
 
 ## Usage
 
-## Install
+## Installation
 
-## Contribution
+## References
 
 ## Licence
 
