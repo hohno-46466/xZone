@@ -3,7 +3,8 @@
 # Prev update: Sun Oct 30 15:47:32 JST 2016
 # Prev update: Mon Sep 25 05:45:14 JST 2017
 # Prev update: Sat Feb  3 09:05:59 JST 2018
-# Last update: Sun Feb 18 10:04:29 JST 2018
+# Prev update: Sun Feb 18 10:04:29 JST 2018
+# Last update: Wed Feb 21 14:50:00 JST 2018
 
 aZone - Apple, Android & AWS Zone
 bZone - Business Zone
@@ -13,6 +14,7 @@ eZone - Education
 jZone - Joint project Zone ?
 mZone - MAKER Zone
 pZone - Private Zone
+rZone - Research Zone
 sZone - Special Zone 
 tZone - Test/Temporary Zone
 uZone - Unix Zone (ex. Universal Zone)
@@ -29,7 +31,6 @@ lZone - ("l" は視認性がよくないので採用するか否かは要検討�
 nZone - 
 oZone - ("o" は視認性がよくないので採用するか否かは要検討）Office Zone ?
 qZone - (小文字の "q" は "g" との誤認があるので "q" と "g" はどちらか一方にするのが安全か) 
-rZone - Radio Zone ?
 vZone - virtual zone ?
 yZone - 
 zZone - 
