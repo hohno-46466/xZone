@@ -1,6 +1,17 @@
-Zone名一覧 (https://github.com/hohno-46466/--README_1ST--/README.md （非公開）からの部分引用）
+00README.txt for xZone
 
-# Last update(synced): Thu Jun 17 06:11:40 JST 2021
+Last update: Fri Jun 18 03:12:42 JST 2021
+
+主な用途：実験的用途および管理的用途
+
+Purpose:  eXperimental and management Zone
+
+
+----------------------------------------
+
+各Zone 一覧 (https://github.com/hohno-46466/--README_1ST--/README.md （非公開）からの部分引用）
+
+# Last update(synced with --README_1ST--): Thu Jun 17 06:11:40 JST 2021
 
 ----------------------------------------
 #### 採用中 / Already Assigned.
@@ -36,8 +47,8 @@ wZone - Windows Zone
 
 xZone - eXperimental and management Zone ?
 
-補足：aZone, uZone, wZone　と cZone の使い分け
-→ code はなんでもかんでも cZone としてしまうと cZone が賑わいすぎるので、aZone/uZone/wZone に分類しても違和感がない場合（iOS, Android など特定のプラットフォーム専用のアプリ等）はこれらを使う方針でどう？
+補足：aZone, uZone, wZone と cZone の使い分け
+→ code 関連をなんでもかんでも cZone としてしまうと cZone が賑わいすぎるので、aZone/uZone/wZone に分類しても違和感がない場合（iOS, Android など特定のプラットフォーム専用のアプリ等）はこれらを使う方針でどう？
  Windows phone のアプリとかは wZone．Microsoft 365 関連も wZone か．そうすると wZone は windows zone といいつつ MS zone の趣．
  uZone は難しい？ シェルスクリプトは uZone?
 
