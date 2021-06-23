@@ -1,17 +1,18 @@
 00README.txt for xZone
 
-Last update: Fri Jun 18 03:12:42 JST 2021
+Last update: Thu Jun 24 05:39:05 JST 2021
 
 主な用途：実験的用途および管理的用途
 
 Purpose:  eXperimental and management Zone
 
-
 ----------------------------------------
 
 各Zone 一覧 (https://github.com/hohno-46466/--README_1ST--/README.md （非公開）からの部分引用）
 
-# Last update(synced with --README_1ST--): Thu Jun 17 06:11:40 JST 2021
+# Last update (synced with --README_1ST--): Thu Jun 24 05:38:44 JST 2021
+
+### Zone名一覧
 
 ----------------------------------------
 #### 採用中 / Already Assigned.
@@ -27,8 +28,6 @@ dZone - Data & Document Zone
 
 eZone - Education Zone
 
-gZone - Global Zone ? (小文字の "q" は "g" との誤認があるので "q" と "g" はどちらか一方にするのが安全かと) - global って具体的には何？
-
 jZone - Joint project Zone
 
 mZone - MAKER Zone
@@ -36,8 +35,6 @@ mZone - MAKER Zone
 pZone - Private Zone
 
 rZone - Research Zone
-
-sZone - Special Zone
 
 tZone - Test/Temporary Zone
 
@@ -51,6 +48,14 @@ xZone - eXperimental and management Zone ?
 → code 関連をなんでもかんでも cZone としてしまうと cZone が賑わいすぎるので、aZone/uZone/wZone に分類しても違和感がない場合（iOS, Android など特定のプラットフォーム専用のアプリ等）はこれらを使う方針でどう？
  Windows phone のアプリとかは wZone．Microsoft 365 関連も wZone か．そうすると wZone は windows zone といいつつ MS zone の趣．
  uZone は難しい？ シェルスクリプトは uZone?
+
+----------------------------------------
+#### 採用準備中 / They Will be assigned soon
+----------------------------------------
+
+gZone - Global Zone ? (小文字の "q" は "g" との誤認があるので "q" と "g" はどちらか一方にするのが安全かと) - global って具体的には何？
+
+sZone - Special Zone
 
 ----------------------------------------
 #### 採用見送り / Not Good To Be Assigned
