@@ -36,6 +36,8 @@ pZone - Private Zone
 
 rZone - Research Zone
 
+sZone - Special Zone
+
 tZone - Test/Temporary Zone
 
 uZone - Unix Zone (Universal Zone にしてしまうと Global Zone との違いがわからなくなる)
@@ -47,15 +49,12 @@ xZone - eXperimental and management Zone ?
 補足：aZone, uZone, wZone と cZone の使い分け
 → code 関連をなんでもかんでも cZone としてしまうと cZone が賑わいすぎるので、aZone/uZone/wZone に分類しても違和感がない場合（iOS, Android など特定のプラットフォーム専用のアプリ等）はこれらを使う方針でどう？
  Windows phone のアプリとかは wZone．Microsoft 365 関連も wZone か．そうすると wZone は windows zone といいつつ MS zone の趣．
- uZone は難しい？ シェルスクリプトは uZone?
 
 ----------------------------------------
 #### 採用準備中 / They Will be assigned soon
 ----------------------------------------
 
-gZone - Global Zone ? (小文字の "q" は "g" との誤認があるので "q" と "g" はどちらか一方にするのが安全かと) - global って具体的には何？
-
-sZone - Special Zone
+gZone - Global Zone? Google Zone? (小文字の "q" は "g" との誤認があるので "q" と "g" はどちらか一方にするのが安全かと) - global って具体的には何？
 
 ----------------------------------------
 #### 採用見送り / Not Good To Be Assigned
