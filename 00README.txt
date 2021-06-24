@@ -8,9 +8,10 @@ Purpose:  eXperimental and management Zone
 
 ----------------------------------------
 
-各Zone 一覧 (https://github.com/hohno-46466/--README_1ST--/README.md （非公開）からの部分引用）
+各Zone 一覧 (https://github.com/hohno-46466/--README_1ST--/README.md （この文書は非公開）からの部分引用）
 
-# Last update (synced with --README_1ST--): Thu Jun 24 05:38:44 JST 2021
+# Last update (synced with --README_1ST--): Thu Jun 24 20:48:20 JST 2021
+
 
 ### Zone名一覧
 
@@ -76,15 +77,15 @@ zZone - ("z" は視認性がよくない（数字の"2"や大文字の"Z"との�
 #### 未割り当て / Not Assigned Yet
 ----------------------------------------
 
-fZone - foreign zone?（外国語？），font zone とかもありそう
+fZone - foreign zone?（外国語？），font zone とかもありそう... facebook?
 
-kZone - kanji zone?(漢字) , kodomo zone?(漢供)
+kZone - kanji zone?(漢字) , kodomo zone?(子供),  Kernel?
 
-nZone - next zone?
+nZone - next zone? new zone?
 
-vZone - virtual zone? (Reserved for future expansion ?)
+vZone - virtual zone? (Reserved for future expansion ?)  VR とか XR とか言い出したらこここかも
 
-yZone - う〜む、なんだろう ^^:
+yZone - う〜む、なんだろう ^^: .. yahoo?
 
 
 ----------------------------------------
