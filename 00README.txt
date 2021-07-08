@@ -32,7 +32,7 @@ jZone - Joint project Zone
 
 mZone - MAKER Zone
 
-pZone - Private Zone
+pZone - Private Zone / Public Zone (一方ではなく両方）
 
 rZone - Research Zone
 
