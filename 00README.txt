@@ -8,7 +8,7 @@ Purpose:  eXperimental and management Zone
 
 ----------------------------------------
 
-各Zone 一覧 (https://github.com/hohno-46466/--README_1ST--/README.md （この文書は非公開）からの部分引用）
+各Zone 一覧 (非公開文書 https://github.com/hohno-46466/--README_1ST--/README.md からの部分引用）
 
 # Last update (synced with --README_1ST--): Thu Jul  8 22:02:13 JST 2021
 
