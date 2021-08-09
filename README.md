@@ -1,5 +1,4 @@
-# xZone
-eXperimental and management Zone
+# xZone - eXperimental and management Zone
 
 <!---
 ====
