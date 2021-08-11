@@ -1,4 +1,4 @@
-# xZone - eXperimental and management Zone
+# GitHub/xZone - eXperimental and management Zone
 
 <!---
 ====
@@ -44,3 +44,5 @@ See also 00README.txt, if prepared.
 Mon Aug  5 06:21:27 JST 2019
 Wed Aug 21 23:17:58 JST 2019
 -->
+
+-EOF-
