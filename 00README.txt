@@ -10,7 +10,9 @@ Purpose:  eXperimental and management Zone
 
 各Zone 一覧 (非公開文書 https://github.com/hohno-46466/--README_1ST--/README.md からの部分引用）
 
-# Last update (synced with --README_1ST--): Thu Jul  8 22:02:13 JST 2021
+# Last update (synced with --README_1ST--): Tue Aug 31 05:32:50 JST 2021
+
+### Zone名一覧
 
 ----------------------------------------
 #### 採用中 / Already Assigned.
@@ -32,7 +34,7 @@ jZone - Joint project Zone
 
 mZone - MAKER Zone
 
-pZone - Private Zone / Public Zone (一方ではなく両方）
+pZone - Private Zone / Public Zone  (一方ではなく両方)
 
 rZone - Research Zone
 
@@ -46,9 +48,10 @@ wZone - Windows Zone
 
 xZone - eXperimental and management Zone ?
 
-補足：aZone, gZone, uZone, wZone と cZone の使い分け
+補足1：aZone, gZone, uZone, wZone と cZone の使い分け
 → code 関連をなんでもかんでも cZone としてしまうと cZone が賑わいすぎるので、aZone/gZone/uZone/wZone に分類しても違和感がない場合（例：iOS, Android など特定のプラットフォーム専用のアプリ等）はこれらを使う方針とする．
 もちろんコード以外の文書やデータは aZone/gZone/uZone/wZone を積極利用することになる．
+補足2：Test(tZone) と eXperimental(xZone) はどう区別するだぁぁぁぁ？(2021-08-30)
 
 ----------------------------------------
 #### 採用準備中 / They Will be assigned soon
@@ -85,6 +88,5 @@ nZone - next zone? new zone? →将来拡張する必要が生じた場合にあ
 vZone - virtual zone? (Reserved for future expansion ?)  VR とか XR とか言い出したらこここかも
 
 yZone - う〜む、なんだろう ^^: ... yahoo? Apple, Amazon, Google, MS を意図した Zone があるので yahoo もあるかも）
-
 
 ----------------------------------------
