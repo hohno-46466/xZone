@@ -4,7 +4,7 @@ Last update: Thu Jun 24 05:39:05 JST 2021
 
 主な用途：実験的用途および管理的用途
 
-Purpose:  eXperimental and management Zone
+Purpose: eXperimental and management Zone
 
 ----------------------------------------
 
@@ -49,9 +49,11 @@ wZone - Windows Zone
 xZone - eXperimental and management Zone ?
 
 補足1：aZone, gZone, uZone, wZone と cZone の使い分け
-→ code 関連をなんでもかんでも cZone としてしまうと cZone が賑わいすぎるので、aZone/gZone/uZone/wZone に分類しても違和感がない場合（例：iOS, Android など特定のプラットフォーム専用のアプリ等）はこれらを使う方針とする．
-もちろんコード以外の文書やデータは aZone/gZone/uZone/wZone を積極利用することになる．
+→ code 関連をなんでもかんでも cZone としてしまうと cZone が賑わいすぎるので、aZone/gZone/uZone/wZone に分類しても違和感がない場合（例：iOS, Android など特定のプラットフォーム専用のアプリ等）はこれらを使う方針とする
+もちろんコード以外の文書やデータは aZone/gZone/uZone/wZone を積極利用することになる
+
 補足2：Test(tZone) と eXperimental(xZone) はどう区別するだぁぁぁぁ？(2021-08-30)
+→ 自分のための動作テストは tZone で（誰かに見てもらいたい）外部に公開できる実験や試みは xZone という整理でどう？(2021-09-20)
 
 ----------------------------------------
 #### 採用準備中 / They Will be assigned soon
