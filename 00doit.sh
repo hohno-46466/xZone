@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/sh
 
 # 00doit.sh
 
@@ -9,8 +9,12 @@
 PNAME=$(basename $0)
 # echo "$PNAME"
 
-TARGET="$HOME/tmp/xZone-test00"		# Never end with "/"
-SOURCE="$(pwd)/xZone-test00"		# Never end with "/"
+TARGET="xZone-test00"		# Never end with "/"
+
+DIR1="$HOME/tmp"		# Never end with "/"
+DIR2="$HOME/GitHub/xZone"	# Never end with "/"
+
+# ----------------------------------------------------------
 
 mesg_exit() {
   echo "$1"
@@ -23,7 +27,6 @@ usage_exit() {
 
 [ "x$(which rsync)" = "x" ] && mesg_exit "${PNAME}: rsync is not installed. aborted..." 99
 [ "x$(which unison)" = "x" ] && mesg_exit "${PNAME}: unison is not installed. aborted..." 99
-
 
 # ----------------------------------------------------------
 
@@ -51,19 +54,37 @@ elif [ "x$1" = "xdiff" ]; then
 fi
 
 if [ "x$syncType" = "xnone" ]; then
-  usage_exit 1
+  usage_exit 9
   :
 fi
 
-if [ ! -d "$SOURCE" ]; then
-  mesg_exit "${PNAME}: Can't find source directory ($SOURCE)" 1
+if [ ! -d "$DIR1/$TARGET" ]; then
+  mesg_exit "${PNAME}: Can't find directory ($DIR1/$TARGET)" 2
   :
 fi
 
-if [ ! -d "$TARGET" ]; then
-  mesg_exit "${PNAME}: Can't find target directory ($TARGET)" 1
+if [ ! -d "$DIR2/$TARGET" ]; then
+  mesg_exit "${PNAME}: Can't find directory ($DIR2/$TARGET)" 3
   :
 fi
+
+CDIR=$(pwd)
+
+if [ "x$CDIR" = "x$DIR1" ]; then
+  SRCDIR="$DIR1/$TARGET"
+  DSTDIR="$DIR2/$TARGET"
+
+elif [ "x$CDIR" = "x$DIR2" ]; then
+  SRCDIR="$DIR2/$TARGET"
+  DSTDIR="$DIR1/$TARGET"
+
+else
+  mesg_exit "${PNAME}: You must change directory to one of $DIR1 or $DIR2" 5
+    :
+fi
+
+# echo "DEBUG: ($SRCDIR) ($DSTDIR)"
+# exit 90
 
 # ----------------------------------------------------------
 
@@ -89,29 +110,30 @@ optx=$(echo $opts | sed -e 's/--exclude=/-ignore "Regex /g' -e 's/\(Regex [^ ]*\
 # ----------------------------------------------------------
 
 if [ "x$syncType" = "xup" ]; then
-  echo "${PNAME}: ${SOURCE} -> ${TARGET}"
-  # echo $(echo rsync -avE $@ $opts ${SOURCE}/ ${TARGET})
-  eval $(echo rsync -avE $@ $opts ${SOURCE}/ ${TARGET})
+  echo "${PNAME}: ${SRCDIR} -> ${DSTDIR}"
+  # echo $(echo rsync -avE $@ $opts ${SRCDIR}/ ${DSTDIR})
+  eval $(echo rsync -avE $@ $opts ${SRCDIR}/ ${DSTDIR})
   :
 elif [ "x$syncType" = "xdown" ]; then
-  echo "${PNAME}: ${TARGET} -> ${SOURCE}"
-  # echo $(echo rsync -avE $@ $opts ${TARGET})/ ${SOURCE}
-  eval $(echo rsync -avE $@ $opts ${TARGET})/ ${SOURCE}
+  echo "${PNAME}: ${DSTDIR} -> ${SRCDIR}"
+  # echo $(echo rsync -avE $@ $opts ${DSTDIR})/ ${SRCDIR}
+  eval $(echo rsync -avE $@ $opts ${DSTDIR})/ ${SRCDIR}
   :
 elif [ "x$syncType" = "xunison" ]; then
-  echo "${PNAME}: ${TARGET} <-> ${SOURCE}"
-  # echo $(echo "unison -auto $SOURCE $TARGET $optx")
-  eval $(echo "unison -auto $SOURCE $TARGET $optx")
+  echo "${PNAME}: ${DSTDIR} <-> ${SRCDIR}"
+  # echo $(echo "unison -batch $SRCDIR $DSTDIR $optx")
+  eval $(echo "unison -batch $SRCDIR $DSTDIR $optx")
   :
 elif [ "x$syncType" = "xdiff" ]; then
+  echo "${PNAME}: Compare ${SRCDIR} and ${DSTDIR}"
   echo "(diff)"
-  echo $(echo diff -r -q ${SOURCE} ${TARGET})
-  eval $(echo diff -r -q ${SOURCE} ${TARGET})
+  echo $(echo diff -r -q ${SRCDIR} ${DSTDIR})
+  eval $(echo diff -r -q ${SRCDIR} ${DSTDIR})
   echo "(unison)"
-  unison -batch -noupdate "$SOURCE" -noupdate "$TARGET" "$SOURCE" "$TARGET"
+  unison -batch -noupdate "$SRCDIR" -noupdate "$DSTDIR" "$SRCDIR" "$DSTDIR"
   :
 else
-  usage_exit 2
+  usage_exit 9
   :
 fi
 
