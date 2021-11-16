@@ -1,6 +1,10 @@
 #! /bin/sh
 
+# 00doit.sh
+
 # Last update: Wed Oct 27 06:38:35 JST 2021 by @hohno_at_kuimc
+
+# ----------------------------------------------------------
 
 PNAME=$(basename $0)
 # echo "$PNAME"
@@ -16,6 +20,12 @@ mesg_exit() {
 usage_exit() {
   mesg_exit "usage: $PNAME [up|upload|down|download|unison|diff]" $1
 }
+
+[ "x$(which rsync)" = "x" ] && mesg_exit "${PNAME}: rsync is not installed. aborted..." 99
+[ "x$(which unison)" = "x" ] && mesg_exit "${PNAME}: unison is not installed. aborted..." 99
+
+
+# ----------------------------------------------------------
 
 syncType="none"
 
@@ -55,6 +65,8 @@ if [ ! -d "$TARGET" ]; then
   :
 fi
 
+# ----------------------------------------------------------
+
 opts="$opts"
 opts="$opts --exclude=${PNAME}"
 opts="$opts --exclude=.Spotlight-V100"
@@ -73,7 +85,9 @@ optx=$(echo $opts | sed -e 's/--exclude=/-ignore "Regex /g' -e 's/\(Regex [^ ]*\
 # echo "($opts)"
 # echo "($optx)"
 # exit
-	 
+
+# ----------------------------------------------------------
+
 if [ "x$syncType" = "xup" ]; then
   echo "${PNAME}: ${SOURCE} -> ${TARGET}"
   # echo $(echo rsync -avE $@ $opts ${SOURCE}/ ${TARGET})
