@@ -1,8 +1,9 @@
 #!/bin/sh
 
-# 00doit.sh
+# 99doit.sh
 
-# Last update: Wed Oct 27 06:38:35 JST 2021 by @hohno_at_kuimc
+# Prev update: Wed Oct 27 06:38:35 JST 2021 by @hohno_at_kuimc
+# Last update: Tue Nov 30 20:47:51 JST 2021 by @hohno_at_kuimc
 
 # ----------------------------------------------------------
 
@@ -25,7 +26,9 @@ usage_exit() {
   mesg_exit "usage: $PNAME [up|upload|down|download|unison|diff]" $1
 }
 
-[ "x$(which rsync)" = "x" ] && mesg_exit "${PNAME}: rsync is not installed. aborted..." 99
+# ----------------------------------------------------------
+
+[ "x$(which rsync)" = "x" ]  && mesg_exit "${PNAME}: rsync is not installed. aborted..." 99
 [ "x$(which unison)" = "x" ] && mesg_exit "${PNAME}: unison is not installed. aborted..." 99
 
 # ----------------------------------------------------------
@@ -59,12 +62,12 @@ if [ "x$syncType" = "xnone" ]; then
 fi
 
 if [ ! -d "$DIR1/$TARGET" ]; then
-  mesg_exit "${PNAME}: Can't find directory ($DIR1/$TARGET)" 2
+  mesg_exit "${PNAME}: Can't find directory No.1 ($DIR1/$TARGET)" 2
   :
 fi
 
 if [ ! -d "$DIR2/$TARGET" ]; then
-  mesg_exit "${PNAME}: Can't find directory ($DIR2/$TARGET)" 3
+  mesg_exit "${PNAME}: Can't find directory No.2 ($DIR2/$TARGET)" 3
   :
 fi
 
@@ -105,7 +108,7 @@ optx=$(echo $opts | sed -e 's/--exclude=/-ignore "Regex /g' -e 's/\(Regex [^ ]*\
 
 # echo "($opts)"
 # echo "($optx)"
-# exit
+# exit 91
 
 # ----------------------------------------------------------
 
