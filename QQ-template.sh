@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# QQ.sh
+# QQ-template.sh
 
 # Prev update: Wed Oct 27 06:38:35 JST 2021 by @hohno_at_kuimc
 # Last update: Tue Nov 30 20:47:51 JST 2021 by @hohno_at_kuimc
@@ -10,10 +10,14 @@
 PNAME=$(basename $0)
 # echo "$PNAME"
 
-TARGET="xZone-test00"		# Never end with "/"
+# Never end with "/"
+TARGET="xZone-test00"
 
-DIR1="$HOME/tmp"		# Never end with "/"
-DIR2="$HOME/GitHub/xZone"	# Never end with "/"
+# Never end with "/"
+DIR1="$HOME/tmp"
+
+# Never end with "/"
+DIR2="$HOME/GitHub/xZone"
 
 # ----------------------------------------------------------
 
