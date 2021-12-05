@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# 99doit.sh
+# QQ.sh
 
 # Prev update: Wed Oct 27 06:38:35 JST 2021 by @hohno_at_kuimc
 # Last update: Tue Nov 30 20:47:51 JST 2021 by @hohno_at_kuimc
