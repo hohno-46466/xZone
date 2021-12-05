@@ -132,8 +132,10 @@ elif [ "x$syncType" = "xdiff" ]; then
   echo "(diff)"
   echo $(echo diff -r -q ${SRCDIR} ${DSTDIR})
   eval $(echo diff -r -q ${SRCDIR} ${DSTDIR})
+  echo "Return Code = $?"
   echo "(unison)"
   unison -batch -noupdate "$SRCDIR" -noupdate "$DSTDIR" "$SRCDIR" "$DSTDIR"
+  echo "Return Code = $?"
   :
 else
   usage_exit 9
