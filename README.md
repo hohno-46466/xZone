@@ -1,17 +1,20 @@
 # GitHub/xZone - eXperimental and management Zone
 
-
     xZone
      ├── 00README.txt
-     ├── 99doit-template.sh
+     ├── QQ-template.sh -> tools/QQ-template.sh
      ├── README.md
+     ├── mkbat4winFS.sh -> tools/mkbat4winFS.sh
+     ├── tools
+     │   ├── QQ-template.sh
+     │   └── mkbat4winFS.sh
      └── xZone-test00
          ├── 00README.txt
          ├── test1.txt
          ├── test2.txt
          └── test3.txt
      
-     1 directory, 7 files (Mon Dec  6 07:00:33 JST 2021)
+     2 directories, 10 files (Fri Dec 10 16:13:09 JST 2021)
 
 <!---
 ====
