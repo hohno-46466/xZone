@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -u
 
 # mkbat4winFS.sh
 

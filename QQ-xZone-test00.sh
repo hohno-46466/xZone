@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -u
 
 # QQ-xZone-teset00.sh
 
