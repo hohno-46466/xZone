@@ -14,10 +14,10 @@ PNAME=$(basename $0)
 TARGET="xZone-test00"
 
 # Never end with "/"
-DIR1="$HOME/tmp"
+DIR1="$HOME/GitHub/xZone"
 
 # Never end with "/"
-DIR2="$HOME/GitHub/xZone"
+DIR2="$HOME/tmp"
 
 # ----------------------------------------------------------
 
@@ -27,7 +27,7 @@ mesg_exit() {
 }
 
 usage_exit() {
-  mesg_exit "usage: $PNAME [up|upload|down|download|unison|diff]" $1
+  mesg_exit "usage: $PNAME [up|upload|down|download|unison|diff] [TARGETDIR]" $1
 }
 
 # ----------------------------------------------------------
@@ -75,13 +75,14 @@ if [ ! -d "$DIR2/$TARGET" ]; then
   :
 fi
 
-CDIR=$(pwd)
+CDIR1=$(pwd)
+CDIR2=$(cd..; pwd)
 
-if [ "x$CDIR" = "x$DIR1" ]; then
+if [ "x$CDIR1" = "x$DIR1" -o "x$CDIR2" = "x$DIR1" ]; then
   SRCDIR="$DIR1/$TARGET"
   DSTDIR="$DIR2/$TARGET"
 
-elif [ "x$CDIR" = "x$DIR2" ]; then
+elif [ "x$CDIR1" = "x$DIR2" -o "x$CDIR2" = "x$DIR2" ]; then
   SRCDIR="$DIR2/$TARGET"
   DSTDIR="$DIR1/$TARGET"
 
@@ -89,6 +90,14 @@ else
   mesg_exit "${PNAME}: You must change directory to one of $DIR1 or $DIR2" 5
     :
 fi
+
+if [ "x$1" != "x" -a -d "$1 ]; then
+	DSTDIR="$2"
+fi
+
+
+echo "SRCDIR: $SRCDIR"
+echo "DSTDIR: $DSTDIR"
 
 # echo "DEBUG: ($SRCDIR) ($DSTDIR)"
 # exit 90
