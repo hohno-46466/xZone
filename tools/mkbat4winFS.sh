@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -u
 
 # mkbat4winFS.sh
 
@@ -43,7 +43,7 @@ OPTION1="."
 OPTION2=
 
 usage() {
-    echo "usage: $0 [[-d|/d] directories]"
+    echo "Usage: $0 [[-d|/d] directories] > foo.bat"
 }
 
 if [ "x$1" = "x-h" -o "x$1" = "x--help" ]; then

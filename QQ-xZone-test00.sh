@@ -1,6 +1,6 @@
 #!/bin/sh -u
 
-# QQ-template.sh
+# QQ-xZone-teset00.sh
 
 # Prev update: Wed Oct 27 06:38:35 JST 2021 by @hohno_at_kuimc
 # Last update: Tue Nov 30 20:47:51 JST 2021 by @hohno_at_kuimc
@@ -14,10 +14,10 @@ PNAME=$(basename $0)
 TARGET="xZone-test00"
 
 # Never end with "/"
-DIR1="$HOME/GitHub/xZone"
+DIR1="$HOME/tmp"
 
 # Never end with "/"
-DIR2="$HOME/tmp"
+DIR2="$HOME/GitHub/xZone"
 
 # ----------------------------------------------------------
 
@@ -27,7 +27,7 @@ mesg_exit() {
 }
 
 usage_exit() {
-  mesg_exit "usage: $PNAME [up|upload|down|download|unison|diff] [TARGETDIR]" $1
+  mesg_exit "usage: $PNAME [up|upload|down|download|unison|diff]" $1
 }
 
 # ----------------------------------------------------------
@@ -75,14 +75,13 @@ if [ ! -d "$DIR2/$TARGET" ]; then
   :
 fi
 
-CDIR1=$(pwd)
-CDIR2=$(cd..; pwd)
+CDIR=$(pwd)
 
-if [ "x$CDIR1" = "x$DIR1" -o "x$CDIR2" = "x$DIR1" ]; then
+if [ "x$CDIR" = "x$DIR1" ]; then
   SRCDIR="$DIR1/$TARGET"
   DSTDIR="$DIR2/$TARGET"
 
-elif [ "x$CDIR1" = "x$DIR2" -o "x$CDIR2" = "x$DIR2" ]; then
+elif [ "x$CDIR" = "x$DIR2" ]; then
   SRCDIR="$DIR2/$TARGET"
   DSTDIR="$DIR1/$TARGET"
 
@@ -90,14 +89,6 @@ else
   mesg_exit "${PNAME}: You must change directory to one of $DIR1 or $DIR2" 5
     :
 fi
-
-if [ "x$1" != "x" -a -d "$1 ]; then
-	DSTDIR="$2"
-fi
-
-
-echo "SRCDIR: $SRCDIR"
-echo "DSTDIR: $DSTDIR"
 
 # echo "DEBUG: ($SRCDIR) ($DSTDIR)"
 # exit 90
