@@ -1,5 +1,7 @@
 # GitHub/xZone - eXperimental and management Zone
 
+eXperimental and management Zone
+
     xZone
      ├── 00README.txt
      ├── QQ-template.sh -> tools/QQ-template.sh
@@ -62,8 +64,8 @@ Wed Aug 21 23:17:58 JST 2019
 
 -->
 
-Note: 	url = https://github.com/hohno-46466/xZone
+Note:	url = https://github.com/hohno-46466/xZone
 
-Note:   url = git@github.com:hohno-46466/xZone.git
+Note:	url = git@github.com:hohno-46466/xZone.git
 
 -EOF-

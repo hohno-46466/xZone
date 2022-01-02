@@ -44,9 +44,11 @@ tZone - Test/Temporary Zone
 
 uZone - Unix Zone (Universal Zone にしてしまうと Global Zone との違いがわからなくなる)
 
+vZone - virtual (vR / xR) zone
+
 wZone - Windows Zone
 
-xZone - eXperimental and management Zone ?
+xZone - eXperimental and management Zone
 
 補足1：aZone, gZone, uZone, wZone と cZone の使い分け
 → code 関連をなんでもかんでも cZone としてしまうと cZone が賑わいすぎるので、aZone/gZone/uZone/wZone に分類しても違和感がない場合（例：iOS, Android など特定のプラットフォーム専用のアプリ等）はこれらを使う方針とする
@@ -55,7 +57,7 @@ xZone - eXperimental and management Zone ?
 補足2：Test(tZone) と eXperimental(xZone) はどう区別するだ問題 (2021-08-30)
 → 自分のための動作テストは tZone，（誰かが見ても支障がない）外部に公開できる実験や試みは xZone という整理でどう？(2021-09-20)
 
-補足３：ｃZone の Arduino のスケッチと mZone (2021-10-06)
+補足３：cZone の Arduino のスケッチと mZone (2021-10-06)
 → mZone は　Maker 活動の成果をまとめるので，収容されるのはスケッチだけではない．スケッチは，特定用途のスケッチであっても特定の Maker 活動のみで用いられるわけではない．
   この点に配慮すればスケッチは cZone, それ以外のあれこれは　ｍZone ということになる
 
@@ -90,8 +92,6 @@ fZone - foreign zone?（外国語？），font zone とかもありそう... fac
 kZone - kanji zone?(漢字) , kodomo zone?(子供),  Kernel?
 
 nZone - next zone? new zone? →将来拡張する必要が生じた場合にあり得るかも（nZone/A/..., nZone/B/... など）
-
-vZone - virtual zone? (Reserved for future expansion ?)  VR とか XR とか言い出したらこここかも
 
 yZone - う〜む、なんだろう ^^: ... yahoo? Apple, Amazon, Google, MS を意図した Zone があるので yahoo もあるかも）
 
@@ -185,9 +185,9 @@ xZone--test--TSVfiles
 
 ------------------------------------------------------------
 
-Note:   url = https://github.com/hohno-46466/--README_1ST--
+Note:   url = https://github.com/hohno-46466/xZone
 
-Note:   url = git@github.com:hohno-46466/--README_1ST--.git
+Note:   url = git@github.com:hohno-46466/xZone
 
 ------------------------------------------------------------
 
