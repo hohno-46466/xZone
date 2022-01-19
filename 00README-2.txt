@@ -10,7 +10,7 @@ Purpose: eXperimental and management Zone
 
 各Zone 一覧 (非公開文書 https://github.com/hohno-46466/--README_1ST--/README.md からの部分引用）
 
-# Last update (synced with --README_1ST--): Wed Oct  6 10:06:36 JST 2021
+# Last update: Thu Jan 20 06:50:08 JST 2022 (synced with --README_1ST--)
 
 ### Zone名一覧
 
@@ -97,20 +97,21 @@ yZone - う〜む、なんだろう ^^: ... yahoo? Apple, Amazon, Google, MS を
 
 ----------------------------------------
 
-Just FYI: ( Mon Dec  6 06:59:54 JST 2021 )
+Just FYI: ( Thu Jan 20 06:50:08 JST 2022 )
 
 (Private)
---README_1ST--  
 cZone--Arduino--20171101b_SerialTimeServer2  
 cZone--Arduino--20171231_imasClockT2_ADC_aging  
 cZone--Arduino--COMMON  
 cZone--Arduino--DateTimeDisplay  
-cZone--Processing3--MQTTclock1  
+cZone--Processing3--MQTTclock  
 hohno-46466--Private  
 jZone--ProjectJJY--private  
 pZone--private--dictionaries  
 pZone--private--dotFiles  
+pZone--private--settings  
 pZone--private--smallTools  
+--README_1ST--  
 uZone--tools--EEU  
 uZone--tools--RPi-LED-Matrix  
 xZone--Darshana--SCADAsecurity  
@@ -135,6 +136,7 @@ eZone--mgmgws201909
 eZone--mgws2020-02  
 eZone--mgws--2107  
 eZone--mgws--2108  
+gZone  
 Hello-World  
 HelloWorld2  
 hohno-46466  
@@ -161,6 +163,7 @@ rZone--BigDataProcessing
 rZone--misc--IP65_SensorBox-N  
 rZone--misc--RemoteSensingSystem1  
 rZone--Monogramming  
+rZone--RaspberryGate--WDT  
 sZone  
 sZone--COVID-19  
 sZone--Weather  
@@ -178,7 +181,9 @@ uZone--tools--nanoKontrol2
 uZone--tools--NTPtools  
 uZone--tools--oneliners  
 uZone--tools--txt2gmail  
+vZone  
 wZone  
+wZone--Windows--KeyboardShortcuts  
 xZone  
 xZone--test--P5iOS  
 xZone--test--TSVfiles  
