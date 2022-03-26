@@ -1,6 +1,6 @@
 #!/bin/sh -u
 
-# QQ-template.sh
+# QQ-TEMPLATE.sh
 
 # Prev update: Wed Oct 27 06:38:35 JST 2021 by @hohno_at_kuimc
 # Last update: Tue Nov 30 20:47:51 JST 2021 by @hohno_at_kuimc
@@ -29,6 +29,11 @@ mesg_exit() {
 usage_exit() {
   mesg_exit "usage: $PNAME [up|upload|down|download|unison|diff] [TARGETDIR]" $1
 }
+
+# ----------------------------------------------------------
+
+[ "x$PNAME" = "xQQ-TEMPLATE.sh" ] && mesg_exit "${PNAME}: Fatal: set file name properly. aborted..." 99
+[ "x$PNAME" != "xQQ-${TARGET}.sh" ] && mesg_exit "${PNAME}:Fatal:  set TARGET properly. aborted..." 99
 
 # ----------------------------------------------------------
 
