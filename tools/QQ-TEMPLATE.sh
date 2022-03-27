@@ -1,3 +1,4 @@
+#!/bin/sh
 #!/bin/sh -u
 
 # QQ-TEMPLATE.sh
@@ -12,10 +13,10 @@ PNAME=$(basename $0)
 # echo "$PNAME"
 
 # Never end with "/"
-TARGET="xZone-test00"
+TARGET="TEMPLATE"
 
 # Never end with "/"
-DIR1="$HOME/GitHub/xZone"
+DIR1="$HOME/GitHub/TEMPLATE_DIR"
 
 # Never end with "/"
 DIR2="$HOME/tmp"
@@ -47,7 +48,7 @@ syncType="none"
 
 if [ "x$1" = "x-h" -o "x$1" = "x--help" ]; then
   usage_exit 9
- :
+  :
 elif [ "x$1" = "xup" -o "x$1" = "xupload" ]; then
   syncType="up"
   shift
@@ -82,7 +83,7 @@ if [ ! -d "$DIR2/$TARGET" ]; then
 fi
 
 CDIR1=$(pwd)
-CDIR2=$(cd..; pwd)
+CDIR2=$(cd ..; pwd)
 
 if [ "x$CDIR1" = "x$DIR1" -o "x$CDIR2" = "x$DIR1" ]; then
   SRCDIR="$DIR1/$TARGET"
@@ -97,7 +98,7 @@ else
     :
 fi
 
-if [ "x$1" != "x" -a -d "$1 ]; then
+if [ "x$1" != "x" -a -d "$1" ]; then
 	DSTDIR="$2"
 fi
 
@@ -110,7 +111,7 @@ echo "DSTDIR: $DSTDIR"
 
 # ----------------------------------------------------------
 
-opts="$opts"
+opts=""
 opts="$opts --exclude=${PNAME}"
 opts="$opts --exclude=.Spotlight-V100"
 opts="$opts --exclude=.TemporaryItems"
