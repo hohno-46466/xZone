@@ -1,1 +1,0 @@
-tools/QQ-template.sh
