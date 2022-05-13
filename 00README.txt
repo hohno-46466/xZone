@@ -2,24 +2,24 @@
 # 00README.txt
 #
 
-Tue Dec 14 06:08:51 JST 2021
 
-
-    xZone
+    ./xZone
      ├── 00README-2.txt
-     ├── mkbat4winFS.sh -> tools/mkbat4winFS.sh
-     ├── QQ-template.sh -> tools/QQ-template.sh
+     ├── 00README.txt
+     ├── QQ-TEMPLATE.sh -> tools/QQ-TEMPLATE.sh
      ├── QQ-tools.sh
      ├── QQ-xZone-test00.sh
      ├── README.md
+     ├── mkbat4winFS.sh -> tools/mkbat4winFS.sh
      ├── tools
-     │   ├── mkbat4winFS.sh
-     │   └── QQ-template.sh
+     │   ├── 00doit-template.sh
+     │   ├── QQ-TEMPLATE.sh
+     │   └── mkbat4winFS.sh
      └── xZone-test00
          ├── 00README.txt
          ├── test1.txt
          ├── test2.txt
          └── test3.txt
      
-     2 directories, 12 files (Tue Dec 14 06:09:56 JST 2021)
+     2 directories, 14 files (Sun Mar 27 18:37:44 JST 2022)
 
