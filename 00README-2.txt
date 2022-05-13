@@ -12,10 +12,14 @@ Purpose: eXperimental and management Zone
 
 # Last update: Thu Jan 20 06:50:08 JST 2022 (synced with --README_1ST--)
 
+----------------------------------------
+（引用ここから）
+----------------------------------------
+
 ### Zone名一覧
 
 ----------------------------------------
-#### 採用中 / Already Assigned.
+#### （１）採用中 / Already Assigned.
 ----------------------------------------
 
 aZone - Apple, Android & AWS Zone
@@ -38,13 +42,13 @@ pZone - Private Zone / Public Zone  (一方ではなく両方)
 
 rZone - Research Zone
 
-sZone - Special Zone
+sZone - Special Zone (or Social Zone?)
 
 tZone - Test/Temporary Zone
 
 uZone - Unix Zone (Universal Zone にしてしまうと Global Zone との違いがわからなくなる)
 
-vZone - virtual (vR / xR) zone
+vZone - virtual (vR/xR) zone
 
 wZone - Windows Zone
 
@@ -62,13 +66,13 @@ xZone - eXperimental and management Zone
   この点に配慮すればスケッチは cZone, それ以外のあれこれは　ｍZone ということになる
 
 ----------------------------------------
-#### 採用準備中 / They Will be assigned soon
+#### （２）採用準備中 / They Will be assigned soon
 ----------------------------------------
 
 (None)
 
 ----------------------------------------
-#### 採用見送り / Not Good To Be Assigned
+#### （３）採用見送り / Not Good To Be Assigned
 ----------------------------------------
 
 hZone - (小文字の "h" は "n" との誤認があるので "h" と "n" はどちらか一方にするのが安全かと) - h は health ? ( health は dZone/health ?)
@@ -84,7 +88,7 @@ qZone - (小文字の "q" は "g" との誤認があるので "q" と "g" はど
 zZone - ("z" は視認性がよくないので採用しない）（数字の"2"や大文字の"Z"との混同の恐れあり）
 
 ----------------------------------------
-#### 未割り当て / Not Assigned Yet
+#### （４）未割り当て / Not Assigned Yet
 ----------------------------------------
 
 fZone - foreign zone?（外国語？），font zone とかもありそう... facebook?（Apple, Amazon, Google, MS を意図した Zone があるので facebook もあるかも）
@@ -96,14 +100,18 @@ nZone - next zone? new zone? →将来拡張する必要が生じた場合にあ
 yZone - う〜む、なんだろう ^^: ... yahoo? Apple, Amazon, Google, MS を意図した Zone があるので yahoo もあるかも）
 
 ----------------------------------------
+（引用ここまで）
+----------------------------------------
 
-Just FYI: ( Thu Jan 20 06:50:08 JST 2022 )
+Just FYI: ( Mon May  2 10:55:56 JST 2022, listed by lsgithub command )
 
-(Private)
+(private)
+--README_1ST--  
 cZone--Arduino--20171101b_SerialTimeServer2  
 cZone--Arduino--20171231_imasClockT2_ADC_aging  
 cZone--Arduino--COMMON  
 cZone--Arduino--DateTimeDisplay  
+cZone--Arduino--variousPrivateSketches  
 cZone--Processing3--MQTTclock  
 hohno-46466--Private  
 jZone--ProjectJJY--private  
@@ -111,19 +119,22 @@ pZone--private--dictionaries
 pZone--private--dotFiles  
 pZone--private--settings  
 pZone--private--smallTools  
---README_1ST--  
+pZone--private--wordbook  
 uZone--tools--EEU  
 uZone--tools--RPi-LED-Matrix  
 xZone--Darshana--SCADAsecurity  
 xZone--Wen--RaspsberryHouse  
 
-(Public)
+(public)
+Hello-World  
+HelloWorld2  
 aZone  
 bZone  
 cZone  
 cZone--Arduino--ArrowLight  
-cZone--Arduino--imasClasses  
 cZone--Arduino--TEMPLATE  
+cZone--Arduino--imasClasses  
+cZone--Arduino--variousSketches  
 cZone--Arduino--zzRTC  
 cZone--Processing3--tamaClock  
 dZone  
@@ -133,12 +144,10 @@ eZone--BDP--SLCS2021
 eZone--mgmg--UCI2021  
 eZone--mgmgws1908  
 eZone--mgmgws201909  
-eZone--mgws2020-02  
 eZone--mgws--2107  
 eZone--mgws--2108  
+eZone--mgws2020-02  
 gZone  
-Hello-World  
-HelloWorld2  
 hohno-46466  
 hohno-46466.github.io  
 ichiyasaGitSample  
@@ -157,28 +166,30 @@ mZone--QRcodePanel--demos
 mZone--RingLEDClock--demo1  
 pZone  
 pZone--public--dotFiles  
+pZone--public--settings  
 pZone--public--smallTools  
 rZone  
 rZone--BigDataProcessing  
-rZone--misc--IP65_SensorBox-N  
-rZone--misc--RemoteSensingSystem1  
 rZone--Monogramming  
 rZone--RaspberryGate--WDT  
+rZone--misc--IP65_SensorBox-N  
+rZone--misc--RemoteSensingSystem1  
 sZone  
 sZone--COVID-19  
 sZone--Weather  
 tZone  
-tZone--GoogleColab--Test00  
+tZone--GoogleColab  
 tZone--HelloWorld  
+tZone--Programming  
 tZone--test20190730  
 uZone  
+uZone--tools--NTPtools  
 uZone--tools--expectExamples  
 uZone--tools--getbitmapfont  
 uZone--tools--gettimeofday  
 uZone--tools--lsgithub  
 uZone--tools--movingGraph  
 uZone--tools--nanoKontrol2  
-uZone--tools--NTPtools  
 uZone--tools--oneliners  
 uZone--tools--txt2gmail  
 vZone  
