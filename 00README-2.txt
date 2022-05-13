@@ -48,7 +48,7 @@ tZone - Test/Temporary Zone
 
 uZone - Unix Zone (Universal Zone にしてしまうと Global Zone との違いがわからなくなる)
 
-vZone - virtual (vR/xR) zone
+vZone - virtual (vR,aR,mR, etc...) zone
 
 wZone - Windows Zone
 
