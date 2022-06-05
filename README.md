@@ -2,7 +2,7 @@
 
 eXperimental and management Zone
 
-    xZone
+    ./xZone
      ├── 00README.txt
      ├── QQ-template.sh -> tools/QQ-template.sh
      ├── README.md
