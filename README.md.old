@@ -3,66 +3,103 @@
 eXperimental and management Zone
 
     ./xZone
-     ├── 00README.txt
-     ├── QQ-template.sh -> tools/QQ-template.sh
-     ├── README.md
-     ├── mkbat4winFS.sh -> tools/mkbat4winFS.sh
-     ├── tools
-     │   ├── QQ-template.sh
-     │   └── mkbat4winFS.sh
-     └── xZone-test00
-         ├── 00README.txt
-         ├── test1.txt
-         ├── test2.txt
-         └── test3.txt
+     ├──   00README-1.txt
+     ├──   00README-2.txt
+     ├──   QQ-TEMPLATE.sh -> tools/QQ-TEMPLATE.sh
+     ├──   QQ-tools.sh
+     ├──   QQ-xZone-test00.sh
+     ├──   README.md
+     ├──   README.md.old
+     ├──   mkbat4winFS.sh -> tools/mkbat4winFS.sh
+     ├──  tools/
+     │   ├──   00doit-template.sh
+     │   ├──   QQ-TEMPLATE.sh
+     │   └──   mkbat4winFS.sh
+     └──  xZone-test00/
+         ├──   00README.txt
+         ├──   test1.txt
+         ├──   test2.txt
+         └──   test3.txt
      
-     2 directories, 10 files (Fri Dec 10 16:13:09 JST 2021)
+     2 directories, 15 files (Sun Jul 10 12:22:52 JST 2022)
 
-<!---
-====
 
-## Overview
+    ./xZone--BadCase--Arduino-with-Symlinks
+     ├──   README.md
+     ├──  common/
+     │   ├──  dir1/
+     │   │   └──   file1.h
+     │   └──  dir2/
+     │       └──   file2.h
+     └──  sketch_BadSketch_20220507/
+         ├──   README-01.txt
+         ├──   README.md
+         ├──   file1.h -> ../common/dir1/file1.h
+         ├──   file2.h -> ../common/dir2/file2.h
+         ├──   re-link.bat
+         └──   sketch_BadSketch_20220507.ino
+     
+     4 directories, 9 files (Sun Jul 10 12:22:52 JST 2022)
 
-xZone中のフォルダ/ファイルについての一般的な情報提供する．
 
-Providing general information for the files and folders in the "xZone".
+    ./xZone--Darshana--SCADAsecurity
+     ├──   ==PrivateRepository==
+     ├──   README.md
+     ├──  documents/
+     │   └──   README.md
+     ├──   memo-for-GitHub.txt
+     ├──  misc/
+     │   └──   README.md
+     └──  workspace/
+         ├──  MethodTest/
+         │   ├──  Method3/
+         │   ├──  Method4/
+         │   ├──  Paper_resources/
+         │   └──   setup_ENV.txt
+         ├──   README.md
+         └──  playground/
+             ├──   README.md
+             └──  temp/
+     
+     9 directories, 8 files (Sun Jul 10 12:22:52 JST 2022)
 
-## Description
 
-See 00README.txt
+    ./xZone--Wen--RaspberryHouse
+     ├──   ==PrivateRepository==
+     ├──   README.md
+     ├──  WatchDogTimer/
+     │   ├──  ATTiny85/
+     │   ├──  Blink6/
+     │   │   └──   Blink6.ino
+     │   ├──  Blink6_2/
+     │   │   └──   Blink6_2.ino
+     │   ├──   README.md
+     │   ├──  TestForReset/
+     │   │   └──   TestForReset.ino
+     │   ├──  TestForReset2/
+     │   │   └──   TestForReset2.ino
+     │   ├──  watchdog_DoS/
+     │   │   └──   watchdog_DoS.ino
+     │   └──  watchdog_whole/
+     │       └──   watchdog_whole.ino
+     ├──  misc/
+     │   └──   README.md
+     ├──  watchdog_whole/
+     │   └──   watchdog_whole.ino
+     └──  workspace/
+         └──   README.md
+     
+     11 directories, 12 files (Sun Jul 10 12:22:52 JST 2022)
 
-## Requirement
 
-none.
+    ./xZone--test--TSVfiles
+     ├──   README.md
+     └──  examples/
+         ├──   sample-1.tsv
+         └──   sample-2.tsv
+     
+     1 directory, 3 files (Sun Jul 10 12:22:52 JST 2022)
 
-## Usage
-
-none.
-
-## Installation
-
-none.
-
-## References
-
-none.
-
-## Licence
-
-undefined.
-
-## Author
-
-[hohno-46466](https://github.com/hohno-46466) (@hohno_at_kuimc)
-
-# See Also
-
-See also 00README.txt, if prepared.
-
-Mon Aug  5 06:21:27 JST 2019
-Wed Aug 21 23:17:58 JST 2019
-
--->
 
 Note:	url = https://github.com/hohno-46466/xZone
 
