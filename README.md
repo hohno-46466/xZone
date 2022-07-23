@@ -108,8 +108,8 @@ eXperimental and management Zone
      1 directory, 3 files (Sun Jul 17 17:48:13 JST 2022)
 
 
-Note:	url = https://github.com/hohno-46466/xZone
+Note: url = https://github.com/hohno-46466/xZone
 
-Note:	url = git@github.com:hohno-46466/xZone.git
+Note: url = git@github.com:hohno-46466/xZone.git
 
 -EOF-
