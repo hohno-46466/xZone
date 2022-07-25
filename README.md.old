@@ -21,7 +21,7 @@ eXperimental and management Zone
          ├──  test2.txt
          └──  test3.txt
      
-     2 directories, 15 files (Sat Jul 16 16:00:21 JST 2022)
+     2 directories, 15 files (Sun Jul 17 17:48:13 JST 2022)
 
     ./xZone--BadCase--Arduino-with-Symlinks
      ├──  README.md
@@ -38,7 +38,7 @@ eXperimental and management Zone
          ├──  re-link.bat
          └──  sketch_BadSketch_20220507.ino
      
-     4 directories, 9 files (Sat Jul 16 16:00:21 JST 2022)
+     4 directories, 9 files (Sun Jul 17 17:48:13 JST 2022)
 
     ./xZone--Darshana--SCADAsecurity
      ├──  ==PrivateRepository==
@@ -70,7 +70,7 @@ eXperimental and management Zone
              └──  temp/
                  └──  file1.txt
      
-     10 directories, 18 files (Sat Jul 16 16:00:21 JST 2022)
+     10 directories, 18 files (Sun Jul 17 17:48:13 JST 2022)
 
     ./xZone--Wen--RaspberryHouse
      ├──  ==PrivateRepository==
@@ -97,7 +97,7 @@ eXperimental and management Zone
      └──  workspace/
          └──  README.md
      
-     11 directories, 12 files (Sat Jul 16 16:00:21 JST 2022)
+     11 directories, 12 files (Sun Jul 17 17:48:13 JST 2022)
 
     ./xZone--test--TSVfiles
      ├──  README.md
@@ -105,11 +105,11 @@ eXperimental and management Zone
          ├──  sample-1.tsv
          └──  sample-2.tsv
      
-     1 directory, 3 files (Sat Jul 16 16:00:21 JST 2022)
+     1 directory, 3 files (Sun Jul 17 17:48:13 JST 2022)
 
 
-Note:	url = https://github.com/hohno-46466/xZone
+Note: url = https://github.com/hohno-46466/xZone
 
-Note:	url = git@github.com:hohno-46466/xZone.git
+Note: url = git@github.com:hohno-46466/xZone.git
 
 -EOF-
