@@ -9,7 +9,6 @@ eXperimental and management Zone
      ├──  QQ-tools.sh
      ├──  QQ-xZone-test00.sh
      ├──  README.md
-     ├──  README.md.bak
      ├──  README.md.old
      ├──  mkbat4winFS.sh -> tools/mkbat4winFS.sh
      ├──  tools/
@@ -22,7 +21,7 @@ eXperimental and management Zone
          ├──  test2.txt
          └──  test3.txt
      
-     2 directories, 16 files (Tue Jul 26 23:37:25 JST 2022)
+     2 directories, 15 files (Tue Jul 26 23:51:04 JST 2022)
 
     ./xZone--BadCase--Arduino-with-Symlinks
      ├──  README.md
@@ -40,7 +39,7 @@ eXperimental and management Zone
          ├──  re-link.bat
          └──  sketch_BadSketch_20220507.ino
      
-     4 directories, 10 files (Tue Jul 26 23:37:25 JST 2022)
+     4 directories, 10 files (Tue Jul 26 23:51:04 JST 2022)
 
     ./xZone--Darshana--SCADAsecurity
      ├──  ==PrivateRepository==
@@ -73,7 +72,7 @@ eXperimental and management Zone
              └──  temp/
                  └──  file1.txt
      
-     10 directories, 19 files (Tue Jul 26 23:37:25 JST 2022)
+     10 directories, 19 files (Tue Jul 26 23:51:04 JST 2022)
 
     ./xZone--Wen--RaspberryHouse
      ├──  ==PrivateRepository==
@@ -101,7 +100,7 @@ eXperimental and management Zone
      └──  workspace/
          └──  README.md
      
-     11 directories, 13 files (Tue Jul 26 23:37:25 JST 2022)
+     11 directories, 13 files (Tue Jul 26 23:51:04 JST 2022)
 
     ./xZone--test--TSVfiles
      ├──  README.md
@@ -110,7 +109,7 @@ eXperimental and management Zone
          ├──  sample-1.tsv
          └──  sample-2.tsv
      
-     1 directory, 4 files (Tue Jul 26 23:37:25 JST 2022)
+     1 directory, 4 files (Tue Jul 26 23:51:04 JST 2022)
 
 
 Note: url = https://github.com/hohno-46466/xZone
