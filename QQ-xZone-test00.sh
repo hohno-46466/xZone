@@ -2,8 +2,8 @@
 
 # QQ-xZone-teset00.sh
 
-# Prev update: Wed Oct 27 06:38:35 JST 2021 by @hohno_at_kuimc
-# Last update: Tue Nov 30 20:47:51 JST 2021 by @hohno_at_kuimc
+# Prev updated: Wed Oct 27 06:38:35 JST 2021 by @hohno_at_kuimc
+# Last updated: Tue Nov 30 20:47:51 JST 2021 by @hohno_at_kuimc
 
 # ----------------------------------------------------------
 

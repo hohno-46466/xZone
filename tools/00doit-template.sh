@@ -2,8 +2,8 @@
 
 # 00doit-template.sh
 
-# Prev update: Wed Oct 27 06:38:35 JST 2021 by @hohno_at_kuimc
-# Last update: Tue Dec 14 06:39:57 JST 2021 by @hohno_at_kuimc
+# Prev updated: Wed Oct 27 06:38:35 JST 2021 by @hohno_at_kuimc
+# Last updated: Tue Dec 14 06:39:57 JST 2021 by @hohno_at_kuimc
 
 PNAME=$(basename $0)
 # echo "$PNAME"
