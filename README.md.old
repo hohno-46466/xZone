@@ -5,23 +5,29 @@ eXperimental and management Zone
     ./xZone
      ├──  00README-1.txt
      ├──  00README-2.txt
+     ├──  00README-2.txt.bak
      ├──  QQ-TEMPLATE.sh -> tools/QQ-TEMPLATE.sh
      ├──  QQ-tools.sh
+     ├──  QQ-tools.sh.bak
      ├──  QQ-xZone-test00.sh
+     ├──  QQ-xZone-test00.sh.bak
      ├──  README.md
      ├──  README.md.old
      ├──  mkbat4winFS.sh -> tools/mkbat4winFS.sh
      ├──  tools/
      │   ├──  00doit-template.sh
+     │   ├──  00doit-template.sh.bak
      │   ├──  QQ-TEMPLATE.sh
-     │   └──  mkbat4winFS.sh
+     │   ├──  QQ-TEMPLATE.sh.bak
+     │   ├──  mkbat4winFS.sh
+     │   └──  mkbat4winFS.sh.bak
      └──  xZone-test00/
          ├──  00README.txt
          ├──  test1.txt
          ├──  test2.txt
          └──  test3.txt
      
-     2 directories, 15 files (Sat Nov  5 00:04:56 JST 2022)
+     2 directories, 21 files (Fri Nov 11 05:33:28 JST 2022)
 
     ./xZone--BadCase--Arduino-with-Symlinks
      ├──  README.md
@@ -39,7 +45,7 @@ eXperimental and management Zone
          ├──  re-link.bat
          └──  sketch_BadSketch_20220507.ino
      
-     4 directories, 10 files (Sat Nov  5 00:04:56 JST 2022)
+     4 directories, 10 files (Fri Nov 11 05:33:28 JST 2022)
 
     ./xZone--Darshana--SCADAsecurity
      ├──  ==PrivateRepository==
@@ -72,7 +78,7 @@ eXperimental and management Zone
              └──  temp/
                  └──  file1.txt
      
-     10 directories, 19 files (Sat Nov  5 00:04:56 JST 2022)
+     10 directories, 19 files (Fri Nov 11 05:33:28 JST 2022)
 
     ./xZone--Wen--RaspberryHouse
      ├──  ==PrivateRepository==
@@ -99,7 +105,7 @@ eXperimental and management Zone
      └──  workspace/
          └──  README.md
      
-     10 directories, 13 files (Sat Nov  5 00:04:56 JST 2022)
+     10 directories, 13 files (Fri Nov 11 05:33:28 JST 2022)
 
     ./xZone--test--P5iOS
      ├──  README.md
@@ -109,7 +115,7 @@ eXperimental and management Zone
      └──  sketch_20210901b/
          └──  sketch_20210901b.pde
      
-     2 directories, 4 files (Sat Nov  5 00:04:56 JST 2022)
+     2 directories, 4 files (Fri Nov 11 05:33:28 JST 2022)
 
     ./xZone--test--TSVfiles
      ├──  README.md
@@ -131,7 +137,7 @@ eXperimental and management Zone
              ├──  universities-pref-ishikawa.tsv
              └──  universities-region-chubu.tsv
      
-     3 directories, 15 files (Sat Nov  5 00:04:56 JST 2022)
+     3 directories, 15 files (Fri Nov 11 05:33:28 JST 2022)
 
     ./xZone--test--overleaf
      ├──  1.LocalLaTeX-DPSWSstyle/
@@ -171,7 +177,7 @@ eXperimental and management Zone
          ├──  test-hohno.txt
          └──  test_mori.txt
      
-     6 directories, 30 files (Sat Nov  5 00:04:57 JST 2022)
+     6 directories, 30 files (Fri Nov 11 05:33:28 JST 2022)
 
 
 Note: URL = https://github.com/hohno-46466/xZone
