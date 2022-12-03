@@ -3,9 +3,9 @@
 
 # QQ-TEMPLATE.sh
 
-# Prev updated: Wed Oct 27 06:38:35 JST 2021 by @hohno_at_kuimc
-# Prev updated: Tue Nov 30 20:47:51 JST 2021 by @hohno_at_kuimc
-# Last updated: Sun Mar 27 09:15:15 JST 2022 by @hohno_at_kuimc
+# Prev update: Wed Oct 27 06:38:35 JST 2021 by @hohno_at_kuimc
+# Prev update: Tue Nov 30 20:47:51 JST 2021 by @hohno_at_kuimc
+# Last update: Sun Mar 27 09:15:15 JST 2022 by @hohno_at_kuimc
 
 # ----------------------------------------------------------
 

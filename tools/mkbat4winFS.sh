@@ -33,7 +33,7 @@
 # ----------------------------------------------------------
 
 #
-# Last updated: Mon Oct  4 06:55:42 JST 2021
+# Last update: Mon Oct  4 06:55:42 JST 2021
 #
 
 PNAME=$(basename $0)

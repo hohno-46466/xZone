@@ -1,6 +1,6 @@
 00README-2.txt for xZone
 
-Last updated: Thu Jun 24 05:39:05 JST 2021
+Last update: Thu Jun 24 05:39:05 JST 2021
 
 主な用途：実験的用途および管理的用途
 
@@ -10,7 +10,7 @@ Purpose: eXperimental and management Zone
 
 各Zone 一覧 (非公開文書 https://github.com/hohno-46466/--README_1ST--/README.md からの部分引用）
 
-# Last updated: Thu Jan 20 06:50:08 JST 2022 (synced with --README_1ST--)
+# Last update: Thu Jan 20 06:50:08 JST 2022 (synced with --README_1ST--)
 
 ----------------------------------------
 （引用ここから）
