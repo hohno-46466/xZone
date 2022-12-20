@@ -2,34 +2,28 @@
 
 eXperimental and management Zone
 
-    ./xZone
+     ./xZone
      ├──  00README-1.txt
      ├──  00README-2.txt
-     ├──  00README-2.txt.bak
      ├──  QQ-TEMPLATE.sh -> tools/QQ-TEMPLATE.sh
      ├──  QQ-tools.sh
-     ├──  QQ-tools.sh.bak
      ├──  QQ-xZone-test00.sh
-     ├──  QQ-xZone-test00.sh.bak
      ├──  README.md
      ├──  README.md.old
      ├──  mkbat4winFS.sh -> tools/mkbat4winFS.sh
      ├──  tools/
      │   ├──  00doit-template.sh
-     │   ├──  00doit-template.sh.bak
      │   ├──  QQ-TEMPLATE.sh
-     │   ├──  QQ-TEMPLATE.sh.bak
-     │   ├──  mkbat4winFS.sh
-     │   └──  mkbat4winFS.sh.bak
+     │   └──  mkbat4winFS.sh
      └──  xZone-test00/
          ├──  00README.txt
          ├──  test1.txt
          ├──  test2.txt
          └──  test3.txt
      
-     2 directories, 21 files (Mon Dec 19 20:51:07 JST 2022)
+     2 directories, 15 files (Tue Dec 20 21:43:12 JST 2022)
 
-    ./xZone--BadCase--Arduino-with-Symlinks
+     ./xZone--BadCase--Arduino-with-Symlinks
      ├──  README.md
      ├──  README.md.old
      ├──  common/
@@ -45,16 +39,15 @@ eXperimental and management Zone
          ├──  re-link.bat
          └──  sketch_BadSketch_20220507.ino
      
-     4 directories, 10 files (Mon Dec 19 20:51:07 JST 2022)
+     4 directories, 10 files (Tue Dec 20 21:43:12 JST 2022)
 
-    ./xZone--Darshana--SCADAsecurity
+     ./xZone--Darshana--SCADAsecurity
      ├──  ==PrivateRepository==
      ├──  README.md
      ├──  README.md.old
      ├──  documents/
      │   └──  README.md
      ├──  memo-for-GitHub.txt
-     ├──  memo-for-GitHub.txt.bak
      ├──  misc/
      │   └──  README.md
      └──  workspace/
@@ -79,13 +72,14 @@ eXperimental and management Zone
              └──  temp/
                  └──  file1.txt
      
-     10 directories, 20 files (Mon Dec 19 20:51:07 JST 2022)
+     10 directories, 19 files (Tue Dec 20 21:43:12 JST 2022)
 
-    ./xZone--Wen--RaspberryHouse
+     ./xZone--Wen--RaspberryHouse
      ├──  ==PrivateRepository==
      ├──  README.md
      ├──  README.md.old
      ├──  WatchDogTimer/
+     │   ├──  ATTiny85/
      │   ├──  Blink6/
      │   │   └──  Blink6.ino
      │   ├──  Blink6_2/
@@ -106,9 +100,9 @@ eXperimental and management Zone
      └──  workspace/
          └──  README.md
      
-     10 directories, 13 files (Mon Dec 19 20:51:07 JST 2022)
+     11 directories, 13 files (Tue Dec 20 21:43:12 JST 2022)
 
-    ./xZone--test--P5iOS
+     ./xZone--test--P5iOS
      ├──  README.md
      ├──  README.md.old
      ├──  sketch_20210901a/
@@ -116,9 +110,9 @@ eXperimental and management Zone
      └──  sketch_20210901b/
          └──  sketch_20210901b.pde
      
-     2 directories, 4 files (Mon Dec 19 20:51:07 JST 2022)
+     2 directories, 4 files (Tue Dec 20 21:43:12 JST 2022)
 
-    ./xZone--test--TSVfiles
+     ./xZone--test--TSVfiles
      ├──  README.md
      ├──  README.md.old
      └──  examples/
@@ -138,9 +132,9 @@ eXperimental and management Zone
              ├──  universities-pref-ishikawa.tsv
              └──  universities-region-chubu.tsv
      
-     3 directories, 15 files (Mon Dec 19 20:51:07 JST 2022)
+     3 directories, 15 files (Tue Dec 20 21:43:12 JST 2022)
 
-    ./xZone--test--overleaf
+     ./xZone--test--overleaf
      ├──  1.LocalLaTeX-DPSWSstyle/
      │   ├──  README.md
      │   ├──  bibsample.bib
@@ -178,7 +172,7 @@ eXperimental and management Zone
          ├──  test-hohno.txt
          └──  test_mori.txt
      
-     6 directories, 30 files (Mon Dec 19 20:51:07 JST 2022)
+     6 directories, 30 files (Tue Dec 20 21:43:12 JST 2022)
 
 
 Note: URL = https://github.com/hohno-46466/xZone
