@@ -21,7 +21,7 @@ eXperimental and management Zone
          ├──  test2.txt
          └──  test3.txt
      
-     2 directories, 15 files (Tue Dec 20 21:43:12 JST 2022)
+     2 directories, 15 files (Wed Dec 21 19:01:41 JST 2022)
 
      ./xZone--BadCase--Arduino-with-Symlinks
      ├──  README.md
@@ -39,7 +39,7 @@ eXperimental and management Zone
          ├──  re-link.bat
          └──  sketch_BadSketch_20220507.ino
      
-     4 directories, 10 files (Tue Dec 20 21:43:12 JST 2022)
+     4 directories, 10 files (Wed Dec 21 19:01:41 JST 2022)
 
      ./xZone--Darshana--SCADAsecurity
      ├──  ==PrivateRepository==
@@ -72,7 +72,7 @@ eXperimental and management Zone
              └──  temp/
                  └──  file1.txt
      
-     10 directories, 19 files (Tue Dec 20 21:43:12 JST 2022)
+     10 directories, 19 files (Wed Dec 21 19:01:41 JST 2022)
 
      ./xZone--Wen--RaspberryHouse
      ├──  ==PrivateRepository==
@@ -100,7 +100,7 @@ eXperimental and management Zone
      └──  workspace/
          └──  README.md
      
-     11 directories, 13 files (Tue Dec 20 21:43:12 JST 2022)
+     11 directories, 13 files (Wed Dec 21 19:01:41 JST 2022)
 
      ./xZone--test--P5iOS
      ├──  README.md
@@ -110,7 +110,7 @@ eXperimental and management Zone
      └──  sketch_20210901b/
          └──  sketch_20210901b.pde
      
-     2 directories, 4 files (Tue Dec 20 21:43:12 JST 2022)
+     2 directories, 4 files (Wed Dec 21 19:01:41 JST 2022)
 
      ./xZone--test--TSVfiles
      ├──  README.md
@@ -132,7 +132,7 @@ eXperimental and management Zone
              ├──  universities-pref-ishikawa.tsv
              └──  universities-region-chubu.tsv
      
-     3 directories, 15 files (Tue Dec 20 21:43:12 JST 2022)
+     3 directories, 15 files (Wed Dec 21 19:01:41 JST 2022)
 
      ./xZone--test--overleaf
      ├──  1.LocalLaTeX-DPSWSstyle/
@@ -172,7 +172,7 @@ eXperimental and management Zone
          ├──  test-hohno.txt
          └──  test_mori.txt
      
-     6 directories, 30 files (Tue Dec 20 21:43:12 JST 2022)
+     6 directories, 30 files (Wed Dec 21 19:01:42 JST 2022)
 
 
 Note: URL = https://github.com/hohno-46466/xZone
