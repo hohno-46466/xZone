@@ -2,34 +2,28 @@
 
 eXperimental and management Zone
 
-    ./xZone
+     ./xZone
      ├──  00README-1.txt
      ├──  00README-2.txt
-     ├──  00README-2.txt.bak
      ├──  QQ-TEMPLATE.sh -> tools/QQ-TEMPLATE.sh
      ├──  QQ-tools.sh
-     ├──  QQ-tools.sh.bak
      ├──  QQ-xZone-test00.sh
-     ├──  QQ-xZone-test00.sh.bak
      ├──  README.md
      ├──  README.md.old
      ├──  mkbat4winFS.sh -> tools/mkbat4winFS.sh
      ├──  tools/
      │   ├──  00doit-template.sh
-     │   ├──  00doit-template.sh.bak
      │   ├──  QQ-TEMPLATE.sh
-     │   ├──  QQ-TEMPLATE.sh.bak
-     │   ├──  mkbat4winFS.sh
-     │   └──  mkbat4winFS.sh.bak
+     │   └──  mkbat4winFS.sh
      └──  xZone-test00/
          ├──  00README.txt
          ├──  test1.txt
          ├──  test2.txt
          └──  test3.txt
      
-     2 directories, 21 files (Mon Jan  2 22:55:42 JST 2023)
+     2 directories, 15 files (Tue Jan 31 05:58:54 JST 2023)
 
-    ./xZone--BadCase--Arduino-with-Symlinks
+     ./xZone--BadCase--Arduino-with-Symlinks
      ├──  README.md
      ├──  README.md.old
      ├──  common/
@@ -45,47 +39,51 @@ eXperimental and management Zone
          ├──  re-link.bat
          └──  sketch_BadSketch_20220507.ino
      
-     4 directories, 10 files (Mon Jan  2 22:55:42 JST 2023)
+     4 directories, 10 files (Tue Jan 31 05:58:54 JST 2023)
 
-    ./xZone--Darshana--SCADAsecurity
+     ./xZone--Darshana--SCADAsecurity
      ├──  ==PrivateRepository==
      ├──  README.md
      ├──  README.md.old
      ├──  documents/
      │   └──  README.md
      ├──  memo-for-GitHub.txt
-     ├──  memo-for-GitHub.txt.bak
      ├──  misc/
      │   └──  README.md
-     └──  workspace/
-         ├──  MethodTest/
-         │   ├──  Method3/
-         │   │   ├──  README.md
-         │   │   ├──  Result_Time_Method3_PrimeCounter_SymmetricKey/
-         │   │   ├──  Time_Method3_PrimeCounter_SymmetricKey.py
-         │   │   ├──  getcsv1.sh
-         │   │   ├──  getresult.sh
-         │   │   ├──  result-real.csv
-         │   │   ├──  result-sys.csv
-         │   │   └──  result-user.csv
-         │   ├──  Method4/
-         │   │   └──  Time_Method4_HASHChaining_SymmetricKey.py
-         │   ├──  Paper_resources/
-         │   │   └──  paper_template
-         │   └──  setup_ENV.txt
-         ├──  README.md
-         └──  playground/
-             ├──  README.md
-             └──  temp/
-                 └──  file1.txt
+     ├──  workspace/
+     │   ├──  MethodTest/
+     │   │   ├──  Method3/
+     │   │   │   ├──  README.md
+     │   │   │   ├──  Result_Time_Method3_PrimeCounter_SymmetricKey/
+     │   │   │   ├──  Time_Method3_PrimeCounter_SymmetricKey.py
+     │   │   │   ├──  getcsv1.sh
+     │   │   │   ├──  getresult.sh
+     │   │   │   ├──  getresult2.sh
+     │   │   │   ├──  result-real.csv
+     │   │   │   ├──  result-sys.csv
+     │   │   │   ├──  result-user.csv
+     │   │   │   └──  testdata
+     │   │   ├──  Method4/
+     │   │   │   └──  Time_Method4_HASHChaining_SymmetricKey.py
+     │   │   ├──  Paper_resources/
+     │   │   │   └──  paper_template
+     │   │   └──  setup_ENV.txt
+     │   ├──  README.md
+     │   └──  playground/
+     │       ├──  README.md
+     │       └──  temp/
+     │           └──  file1.txt
+     └──  workspace2023/
+         └──  README.md
      
-     10 directories, 20 files (Mon Jan  2 22:55:42 JST 2023)
+     11 directories, 22 files (Tue Jan 31 05:58:54 JST 2023)
 
-    ./xZone--Wen--RaspberryHouse
+     ./xZone--Wen--RaspberryHouse
      ├──  ==PrivateRepository==
      ├──  README.md
      ├──  README.md.old
      ├──  WatchDogTimer/
+     │   ├──  ATTiny85/
      │   ├──  Blink6/
      │   │   └──  Blink6.ino
      │   ├──  Blink6_2/
@@ -106,9 +104,9 @@ eXperimental and management Zone
      └──  workspace/
          └──  README.md
      
-     10 directories, 13 files (Mon Jan  2 22:55:42 JST 2023)
+     11 directories, 13 files (Tue Jan 31 05:58:54 JST 2023)
 
-    ./xZone--test--P5iOS
+     ./xZone--test--P5iOS
      ├──  README.md
      ├──  README.md.old
      ├──  sketch_20210901a/
@@ -116,9 +114,9 @@ eXperimental and management Zone
      └──  sketch_20210901b/
          └──  sketch_20210901b.pde
      
-     2 directories, 4 files (Mon Jan  2 22:55:42 JST 2023)
+     2 directories, 4 files (Tue Jan 31 05:58:54 JST 2023)
 
-    ./xZone--test--TSVfiles
+     ./xZone--test--TSVfiles
      ├──  README.md
      ├──  README.md.old
      └──  examples/
@@ -138,9 +136,9 @@ eXperimental and management Zone
              ├──  universities-pref-ishikawa.tsv
              └──  universities-region-chubu.tsv
      
-     3 directories, 15 files (Mon Jan  2 22:55:42 JST 2023)
+     3 directories, 15 files (Tue Jan 31 05:58:54 JST 2023)
 
-    ./xZone--test--overleaf
+     ./xZone--test--overleaf
      ├──  1.LocalLaTeX-DPSWSstyle/
      │   ├──  README.md
      │   ├──  bibsample.bib
@@ -178,7 +176,7 @@ eXperimental and management Zone
          ├──  test-hohno.txt
          └──  test_mori.txt
      
-     6 directories, 30 files (Mon Jan  2 22:55:42 JST 2023)
+     6 directories, 30 files (Tue Jan 31 05:58:54 JST 2023)
 
 
 Note: URL = https://github.com/hohno-46466/xZone
