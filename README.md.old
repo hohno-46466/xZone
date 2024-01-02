@@ -27,7 +27,7 @@ eXperimental and management Zone
          ├──  test2.txt
          └──  test3.txt
      
-     3 directories, 21 files (Tue Oct 24 05:56:33 JST 2023)
+     3 directories, 21 files (Thu Nov  2 07:07:22 JST 2023)
 
     ./xZone--BadCase--Arduino-with-Symlinks
      ├──  README.md
@@ -45,7 +45,7 @@ eXperimental and management Zone
          ├──  re-link.bat
          └──  sketch_BadSketch_20220507.ino
      
-     5 directories, 10 files (Tue Oct 24 05:56:33 JST 2023)
+     5 directories, 10 files (Thu Nov  2 07:07:22 JST 2023)
 
     ./xZone--Darshana--SCADAsecurity
      ├──  ==PrivateRepository==
@@ -83,7 +83,7 @@ eXperimental and management Zone
      └──  workspace2023/
          └──  README.md
      
-     12 directories, 23 files (Tue Oct 24 05:56:33 JST 2023)
+     12 directories, 23 files (Thu Nov  2 07:07:22 JST 2023)
 
     ./xZone--MYTechLab--ModbusBar
      ├──  README.md
@@ -104,7 +104,7 @@ eXperimental and management Zone
      └──  sketches/
          └──  README.md
      
-     7 directories, 11 files (Tue Oct 24 05:56:34 JST 2023)
+     7 directories, 11 files (Thu Nov  2 07:07:22 JST 2023)
 
     ./xZone--MYTechLab--SCADAtestbed
      ├──  README.md
@@ -151,7 +151,7 @@ eXperimental and management Zone
      └──  tools/
          └──  README.md
      
-     10 directories, 34 files (Tue Oct 24 05:56:34 JST 2023)
+     10 directories, 34 files (Thu Nov  2 07:07:22 JST 2023)
 
     ./xZone--Wen--RaspberryHouse
      ├──  ==PrivateRepository==
@@ -178,7 +178,7 @@ eXperimental and management Zone
      └──  workspace/
          └──  README.md
      
-     11 directories, 13 files (Tue Oct 24 05:56:34 JST 2023)
+     11 directories, 13 files (Thu Nov  2 07:07:22 JST 2023)
 
     ./xZone--test--P5iOS
      ├──  README.md
@@ -188,7 +188,7 @@ eXperimental and management Zone
      └──  sketch_20210901b/
          └──  sketch_20210901b.pde
      
-     3 directories, 4 files (Tue Oct 24 05:56:34 JST 2023)
+     3 directories, 4 files (Thu Nov  2 07:07:22 JST 2023)
 
     ./xZone--test--TSVfiles
      ├──  README.md
@@ -210,7 +210,7 @@ eXperimental and management Zone
              ├──  universities-pref-ishikawa.tsv
              └──  universities-region-chubu.tsv
      
-     4 directories, 15 files (Tue Oct 24 05:56:34 JST 2023)
+     4 directories, 15 files (Thu Nov  2 07:07:22 JST 2023)
 
     ./xZone--test--overleaf
      ├──  1.LocalLaTeX-DPSWSstyle/
@@ -250,7 +250,7 @@ eXperimental and management Zone
          ├──  test-hohno.txt
          └──  test_mori.txt
      
-     7 directories, 30 files (Tue Oct 24 05:56:34 JST 2023)
+     7 directories, 30 files (Thu Nov  2 07:07:23 JST 2023)
 
 
 Note: URL = https://github.com/hohno-46466/xZone
