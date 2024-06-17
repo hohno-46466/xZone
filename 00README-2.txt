@@ -1,6 +1,7 @@
 00README-2.txt for xZone
 
-Last update: Thu Jun 24 05:39:05 JST 2021
+Prev. update: Thu Jun 24 05:39:05 JST 2021
+Last update: Tue Jun 18 06:45:53 JST 2024
 
 主な用途：実験的用途および管理的用途
 
@@ -10,11 +11,7 @@ Purpose: eXperimental and management Zone
 
 各Zone 一覧 (非公開文書 https://github.com/hohno-46466/--README_1ST--/README.md からの部分引用）
 
-# Last update: Thu Jan 20 06:50:08 JST 2022 (synced with --README_1ST--)
-
-----------------------------------------
-（引用ここから）
-----------------------------------------
+（*** 引用ここから ***）// 要適宜更新
 
 ### Zone名一覧
 
@@ -62,17 +59,17 @@ xZone - eXperimental and management Zone
 → 自分のための動作テストは tZone，（誰かが見ても支障がない）外部に公開できる実験や試みは xZone という整理でどう？(2021-09-20)
 
 補足３：cZone の Arduino のスケッチと mZone (2021-10-06)
-→ mZone は　Maker 活動の成果をまとめるので，収容されるのはスケッチだけではない．スケッチは，特定用途のスケッチであっても特定の Maker 活動のみで用いられるわけではない．
-  この点に配慮すればスケッチは cZone, それ以外のあれこれは　ｍZone ということになる
+→ mZone は Maker 活動の成果をまとめるので，収容されるのはスケッチだけではない．スケッチは，特定用途のスケッチであっても特定の Maker 活動のみで用いられるわけではない．
+  この点に配慮すればスケッチは cZone, それ以外のあれこれは ｍZone ということになる
 
 ----------------------------------------
 #### （２）採用準備中 / They Will be assigned soon
 ----------------------------------------
 
-(None)
+fZone - FPGA Zone (2024-06-18)
 
 ----------------------------------------
-#### （３）採用見送り / Not Good To Be Assigned
+#### （３）採用見送り / Not Suitable for Assignment
 ----------------------------------------
 
 hZone - (小文字の "h" は "n" との誤認があるので "h" と "n" はどちらか一方にするのが安全かと) - h は health ? ( health は dZone/health ?)
@@ -91,8 +88,6 @@ zZone - ("z" は視認性がよくないので採用しない）（数字の"2"�
 #### （４）未割り当て / Not Assigned Yet
 ----------------------------------------
 
-fZone - foreign zone?（外国語？），font zone とかもありそう... facebook?（Apple, Amazon, Google, MS を意図した Zone があるので facebook もあるかも）
-
 kZone - kanji zone?(漢字) , kodomo zone?(子供),  Kernel?
 
 nZone - next zone? new zone? →将来拡張する必要が生じた場合にあり得るかも（nZone/A/..., nZone/B/... など）
@@ -100,104 +95,145 @@ nZone - next zone? new zone? →将来拡張する必要が生じた場合にあ
 yZone - う〜む、なんだろう ^^: ... yahoo? Apple, Amazon, Google, MS を意図した Zone があるので yahoo もあるかも）
 
 ----------------------------------------
-（引用ここまで）
-----------------------------------------
 
-Just FYI: ( Mon May  2 10:55:56 JST 2022, listed by lsgithub command )
+Just FYI: ( Tue Jun 18 07:07:53 JST 2024, listed by lsgithub command )
 
+```
 (private)
---README_1ST--  
-cZone--Arduino--20171101b_SerialTimeServer2  
-cZone--Arduino--20171231_imasClockT2_ADC_aging  
-cZone--Arduino--COMMON  
-cZone--Arduino--DateTimeDisplay  
-cZone--Arduino--variousPrivateSketches  
-cZone--Processing3--MQTTclock  
-hohno-46466--Private  
-jZone--ProjectJJY--private  
-pZone--private--dictionaries  
-pZone--private--dotFiles  
-pZone--private--settings  
-pZone--private--smallTools  
-pZone--private--wordbook  
-uZone--tools--EEU  
-uZone--tools--RPi-LED-Matrix  
-xZone--Darshana--SCADAsecurity  
-xZone--Wen--RaspsberryHouse  
+--README_1ST--
+cZone--Arduino--20171101b_SerialTimeServer2
+cZone--Arduino--20171231_imasClockT2_ADC_aging
+cZone--Arduino--COMMON
+cZone--Arduino--DateTimeDisplay
+cZone--Arduino--variousPrivateSketches
+cZone--Processing3--MQTTclock
+dZone--drawIO--private
+dZone--kakenR5--kibanC
+dZone--kakenR6--kibanC
+hohno-46466--Private
+jZone--ProjectJJY--private
+mZone--A209world--private
+pZone--private--AIN
+pZone--private--dictionaries
+pZone--private--dotFiles
+pZone--private--settings
+pZone--private--smallTools
+pZone--private--wordbook
+rZone--ABCZ--DICOMO2024
+rZone--MgIB--DPS2403
+rZone--MonogrammingEducation--JSiSE2211
+rZone--private--documents
+tZone--ProgrammingSG
+tZone--workspace--temporary
+uZone--tools--EEU
+uZone--tools--RPi-LED-Matrix
+xZone--Darshana--SCADAsecurity
+xZone--Wen--RaspberryHouse
+```
 
+```
 (public)
-Hello-World  
-HelloWorld2  
-aZone  
-bZone  
-cZone  
-cZone--Arduino--ArrowLight  
-cZone--Arduino--TEMPLATE  
-cZone--Arduino--imasClasses  
-cZone--Arduino--variousSketches  
-cZone--Arduino--zzRTC  
-cZone--Processing3--tamaClock  
-dZone  
-dZone--data--benchmarkResults  
-eZone  
-eZone--BDP--SLCS2021  
-eZone--mgmg--UCI2021  
-eZone--mgmgws1908  
-eZone--mgmgws201909  
-eZone--mgws--2107  
-eZone--mgws--2108  
-eZone--mgws2020-02  
-gZone  
-hohno-46466  
-hohno-46466.github.io  
-ichiyasaGitSample  
-jZone  
-jZone--ProjectJJY--public  
-jZone--ProjectWW--workspace  
-mZone  
-mZone--123D_Design  
-mZone--123D_Design--20171219-Lens-LEDx4_folder  
-mZone--123D_Design--20171227-4Kcamera-AW-UE70  
-mZone--7segLED--demo1  
-mZone--DMX512--demo1  
-mZone--ILI9341--demo1  
-mZone--Nx16x32_MessageBoard--demo1  
-mZone--QRcodePanel--demos  
-mZone--RingLEDClock--demo1  
-pZone  
-pZone--public--dotFiles  
-pZone--public--settings  
-pZone--public--smallTools  
-rZone  
-rZone--BigDataProcessing  
-rZone--Monogramming  
-rZone--RaspberryGate--WDT  
-rZone--misc--IP65_SensorBox-N  
-rZone--misc--RemoteSensingSystem1  
-sZone  
-sZone--COVID-19  
-sZone--Weather  
-tZone  
-tZone--GoogleColab  
-tZone--HelloWorld  
-tZone--Programming  
-tZone--test20190730  
-uZone  
-uZone--tools--NTPtools  
-uZone--tools--expectExamples  
-uZone--tools--getbitmapfont  
-uZone--tools--gettimeofday  
-uZone--tools--lsgithub  
-uZone--tools--movingGraph  
-uZone--tools--nanoKontrol2  
-uZone--tools--oneliners  
-uZone--tools--txt2gmail  
-vZone  
-wZone  
-wZone--Windows--KeyboardShortcuts  
-xZone  
-xZone--test--P5iOS  
-xZone--test--TSVfiles  
+Hello-World
+HelloWorld2
+aZone
+bZone
+cZone
+cZone--Arduino--ArrowLight
+cZone--Arduino--TEMPLATE
+cZone--Arduino--imasClasses
+cZone--Arduino--variousSketches
+cZone--Arduino--zzRTC
+cZone--Processing3--tamaClock
+cZone--Processing4--Tools
+dZone
+dZone--PT4A--USBstorage
+dZone--PT4A--USBstorage2
+dZone--data--benchmarkResults
+dZone--drawIO--public
+eZone
+eZone--BDP--SLCS2021
+eZone--BDP--SSTI2023
+eZone--mgmg--KU2204
+eZone--mgmg--UCI2021
+eZone--mgmgws1908
+eZone--mgmgws201909
+eZone--mgws--2107
+eZone--mgws--2108
+eZone--mgws--2208
+eZone--mgws--2210
+eZone--mgws--2302_DAL
+eZone--mgws--2308_DAL
+eZone--mgws--2310_UCI
+eZone--mgws--23Q2Q3
+eZone--mgws2020-02
+gZone
+hohno-46466
+hohno-46466.github.io
+ichiyasaGitSample
+jZone
+jZone--ProjectJJY--public
+jZone--ProjectWW--workspace
+mZone
+mZone--123D_Design
+mZone--123D_Design--20171219-Lens-LEDx4_folder
+mZone--123D_Design--20171227-4Kcamera-AW-UE70
+mZone--7segLED--demo1
+mZone--A209world--public
+mZone--DMX512--demo1
+mZone--ILI9341--demo1
+mZone--Nx16x32_MessageBoard--demo1
+mZone--QRcodePanel--demos
+mZone--RingLEDClock--demo1
+mZone--STLcolletion
+pZone
+pZone--public--dotFiles
+pZone--public--myTrivia
+pZone--public--settings
+pZone--public--smallTools
+rZone
+rZone--BigDataProcessing
+rZone--Monogramming
+rZone--POSIX_Education_Syllubus_Survey
+rZone--RaspberryGate--WDT
+rZone--RaspberryWorkbench--DPSWS2022
+rZone--misc--IP65_SensorBox-N
+rZone--misc--RemoteSensingSystem1
+rZone--public--documents
+sZone
+sZone--COVID-19
+sZone--Weather
+tZone
+tZone--GoogleColab
+tZone--HelloWorld
+tZone--ProgrammingPG
+tZone--test20190730
+uZone
+uZone--tools--NTPtools
+uZone--tools--cointool
+uZone--tools--expectExamples
+uZone--tools--getbitmapfont
+uZone--tools--gettimeofday
+uZone--tools--lsgithub
+uZone--tools--movingGraph
+uZone--tools--nanoKontrol2
+uZone--tools--oneliners
+uZone--tools--txt2gmail
+vZone
+vZone--Unity--MQTT-JSON-OSC
+vZone--Unity--MokuMokuKai
+wZone
+wZone--Windows--KeyboardShortcuts
+xZone
+xZone--BadCase--Arduino-with-Symlinks
+xZone--MYTechLab--ModbusBar
+xZone--MYTechLab--SCADAtestbed
+xZone--githubdemo--20230802
+xZone--test--P5iOS
+xZone--test--TSVfiles
+xZone--test--overleaf
+```
+
+（*** 引用ここまで ***）
 
 ------------------------------------------------------------
 
