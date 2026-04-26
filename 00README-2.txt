@@ -1,7 +1,9 @@
+
 00README-2.txt for xZone
 
 Prev. update: Thu Jun 24 05:39:05 JST 2021
-Last update: Tue Jun 18 06:45:53 JST 2024
+Prev. update: Tue Jun 18 06:45:53 JST 2024
+Last update: 2026-03-14(Sat) 08:56 JST / 2026-03-13(Fri) 23:56 UTC
 
 主な用途：実験的用途および管理的用途
 
@@ -29,7 +31,7 @@ dZone - Data & Document Zone
 
 eZone - Education Zone
 
-gZone - Google Zone (Global Zone? or Google Zone?,  Global って具体的には何？と悩んだ時期もあったが Apple, AWS, Windows用 Zone はあるのでとりあえず gZone は Google Zone でゆくことにした）2021-07-08
+gZone - Google Zone (Global Zone? or Google Zone?,  Global って具体的には何？と悩んだ時期もあったが Apple, AWS, Windows用 Zone はあるのでとりあえず gZone は Google Zone でゆくことにした）2021-07-08, Gist Zone というのもあるかも、というかすでにそうなっている 2026-03-14
 
 jZone - Joint project Zone
 

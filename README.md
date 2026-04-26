@@ -2,7 +2,7 @@
 
 eXperimental and management Zone
 
-     ./xZone
+    ./xZone
      ├──  00README-1.txt
      ├──  00README-2.txt
      ├──  QQ-TEMPLATE.sh -> tools/QQ-TEMPLATE.sh
@@ -21,8 +21,7 @@ eXperimental and management Zone
          ├──  test2.txt
          └──  test3.txt
      
-     2 directories, 15 files (Wed Jan  3 05:22:39 JST 2024)
-
+     3 directories, 15 files (Sat Mar 14 08:54:39 JST 2026)
 
 Note: URL = https://github.com/hohno-46466/xZone
 
