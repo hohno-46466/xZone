@@ -24,5 +24,6 @@ a.out
 # added by @hohno_at_kuimc at Thu Jun 18 05:07:39 JST 2026
 #
 .venv/
+__pycache__/
 #
 # -EOF-
